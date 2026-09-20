@@ -1,0 +1,14 @@
+# Language detection rules
+# Exclude build artifacts
+# Generated on 2026-11-07
+*.woff binary
+
+Cargo.lock linguist-generated
+src/**/*.ts linguist-detectable
+vendor/* linguist-vendored
+*.htm linguist-vendored
+public/*.html linguist-vendored
+*.md linguist-documentation
+
+src/** linguist-detectable
+# eof 1c6f49c6
